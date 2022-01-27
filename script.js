@@ -42,16 +42,14 @@ const createAttgöraElement = attgöra => {
 }
 
 function removeAttgöra(id, attgöra) {
-  attGöra = attGöra.filter(attgöra => attgöra.id !== id)
+  attGöra = attGöra.filter(attgöra => attgöra.id !== id) 
     fetch('https://jsonplaceholder.typicode.com/todos/1', {
     method: 'DELETE',
     })
     .then(res => {
       res.status}); 
     listAttgöra();
-    
-    // DELITE FROM DB 
-    // if???? status är == 200 do what??
+    // deliteAttGöra();
     console.log(attGöra)
 }
 
@@ -91,6 +89,7 @@ const createNewAttgöra = title => {
 // const deliteAttGöra = attgöra => {
 //   fetch('https://jsonplaceholder.typicode.com/todos/1', {
 //     method: 'DELETE',
-//     });
-
+//     })
+//      .then(res => {
+//       res.status}); 
 // }
