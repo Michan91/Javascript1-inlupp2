@@ -43,7 +43,7 @@ const createAttgöraElement = attgöra => {
 
 function removeAttgöra(id, attgöra) {
   attGöra = attGöra.filter(attgöra => attgöra.id !== id) 
-    fetch('https://jsonplaceholder.typicode.com/todos/1', {
+    fetch('https://jsonplaceholder.typicode.com/todos/id', {
     method: 'DELETE',
     })
     .then(res => {
