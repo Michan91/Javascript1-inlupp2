@@ -86,7 +86,7 @@ const createNewAttgöra = title => {
         }
       })
 
-// const deliteAttGöra = attgöra => {
+// const deliteAttGöra = attgöra.id => {
 //   fetch('https://jsonplaceholder.typicode.com/todos/1', {
 //     method: 'DELETE',
 //     })
